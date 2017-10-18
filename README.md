@@ -12,17 +12,17 @@ $ git config --global user.email johndoe@example.com
 ```
 
   - masterに上書きする場合
-  ```bash
+```bash
   $ git branch --set-upstream-to=origin/master master
-  ```
+```
 
   - 別branchを作成する場合
-  ```bash
+```bash
   $ git branch shimamon origin/shimamon
   $ git checkout shimamon
   $ git pull origin shimamon
   $ git branch --set-upstream-to=origin/shimamon master
-  ```
+```
 
 2. ~/config/Makefile のパラメータを書き換える.
 
