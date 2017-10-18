@@ -21,7 +21,7 @@ $ git config --global user.email johndoe@example.com
   $ git branch shimamon origin/shimamon
   $ git checkout shimamon
   $ git pull origin shimamon
-  $ git branch --set-upstream-to=origin/shimamon master
+  $ git branch --set-upstream-to=origin/shimamon shimamon
 ```
 
 2. ~/config/Makefile のパラメータを書き換える.
