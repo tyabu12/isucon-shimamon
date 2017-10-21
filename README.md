@@ -5,6 +5,7 @@ ISUCON7-qualifier's repository
 1. ~/ 直下で git を使ってリポジトリを取ってくる
 ```bash
 $ git init
+<<<<<<< HEAD
 $ git remote add upstream https://github.com/keisuke123/ISUCON.git
 $ git pull upstream master
 $ git config --global user.name "John Doe"
